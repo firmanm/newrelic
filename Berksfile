@@ -1,5 +1,5 @@
 
-source 'https://supermarket.chef.io'
+#source 'https://supermarket.chef.io'
 source 'https://api.berkshelf.com'
 metadata
 #cookbook 'newrelic', git: 'https://github.com/firmanm/newrelic.git', tag: '2.0.0'
@@ -10,4 +10,4 @@ cookbook 'ark', '= 1.1.0'
 cookbook 'mysql', '= 7.2.0'
 cookbook 'build-essential', '= 3.2.0'
 cookbook 'apt', '= 3.0.0'
-#cookbook 'ming', '=1.2.3'
+cookbook 'iptables', = '1.0.0'
